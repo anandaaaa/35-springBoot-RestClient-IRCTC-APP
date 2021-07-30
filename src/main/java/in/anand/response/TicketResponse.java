@@ -1,5 +1,8 @@
 package in.anand.response;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
 public class TicketResponse {
 	
 	private String dob;
